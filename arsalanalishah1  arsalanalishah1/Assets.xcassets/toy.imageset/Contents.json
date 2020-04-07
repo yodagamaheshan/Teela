@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "fao-schwarz-plush-2018-edition-12-inch-plush-anniversary-bear-with-puffer-vest-3856695656535_620x-1.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "fao-schwarz-plush-2018-edition-12-inch-plush-anniversary-bear-with-puffer-vest-3856695656535_620x.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "fao-schwarz-plush-2018-edition-12-inch-plush-anniversary-bear-with-puffer-vest-3856695656535_620x-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

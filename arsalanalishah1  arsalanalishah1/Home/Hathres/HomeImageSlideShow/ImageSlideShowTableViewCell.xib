@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="195" id="KGk-i7-Jjw" customClass="ImageSlideShowTableViewCell" customModule="arsalanalishah1__arsalanalishah1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="436" height="195"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gEX-AX-WlB" customClass="ImageSlideshow" customModule="ImageSlideshow">
+                        <rect key="frame" x="0.0" y="0.0" width="436" height="195"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gEX-AX-WlB" secondAttribute="trailing" id="FOW-Yx-Mue"/>
+                    <constraint firstItem="gEX-AX-WlB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="SpU-91-jMp"/>
+                    <constraint firstItem="gEX-AX-WlB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Xgh-Bt-YPW"/>
+                    <constraint firstAttribute="bottom" secondItem="gEX-AX-WlB" secondAttribute="bottom" id="dUe-jg-rNP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageSlideShow" destination="gEX-AX-WlB" id="XhZ-Av-UJO"/>
+            </connections>
+            <point key="canvasLocation" x="215.94202898550725" y="160.37946428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

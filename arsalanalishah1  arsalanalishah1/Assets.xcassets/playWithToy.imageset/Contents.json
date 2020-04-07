@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "girls-play-blocks-stock-today-151116_6d496dcfd275618ca4fe04b99d93d8ad-min-1.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "girls-play-blocks-stock-today-151116_6d496dcfd275618ca4fe04b99d93d8ad-min.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "girls-play-blocks-stock-today-151116_6d496dcfd275618ca4fe04b99d93d8ad-min-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
